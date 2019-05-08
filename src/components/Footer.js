@@ -1,7 +1,6 @@
-import React from "react";
+import React from 'react';
 
-const Footer = () => {
-  return (
+const Footer = () => (
     <footer className="footer">
       <button className="btn btn-word">
         <div>
@@ -18,12 +17,11 @@ const Footer = () => {
       <div className="verticalLine" />
       <button className="btn btn-list">
         <div>
-          <i class="fas fa-list" />
+          <i className="fas fa-list" />
           <p className="font-title">My List</p>
         </div>
       </button>
     </footer>
   );
-};
 
 export default Footer;
